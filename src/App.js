@@ -29,8 +29,8 @@ class App extends Component {
     render() {
         return (
           <div className="app">
-            <h2>Hexcubic</h2>
-            <p>Pdf</p>
+             <h1>Hexcubic</h1>
+            <a href="https://drive.google.com/file/d/1GN5Qt6NdEn-Z8dyewqb9rwUd-WkOTAah/view?usp=sharing">How to Hexcubic</a>
             <HexGrid width={1200} height={600} viewBox="-100 -100 150 150">
               <GameLayout />
               <Up />
